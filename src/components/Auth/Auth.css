@@ -1,0 +1,13 @@
+.login, .signup{
+    width: 500px;
+    border: 1px solid rgb(193, 193, 193);
+    padding: 30px;
+    border-radius: 5px;
+}
+.links{
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: blue;
+}

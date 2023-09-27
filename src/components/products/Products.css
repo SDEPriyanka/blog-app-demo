@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.blog-post{
+    display: flex;
+    margin-bottom: 5px;
+}
+.prodcuts{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
