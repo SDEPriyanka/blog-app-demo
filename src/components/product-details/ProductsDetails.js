@@ -22,7 +22,7 @@ const ProductsDetails = () => {
         <div className=''>
              <div className='container col-md-6 mt-5 details'>
                 <h1>{post.title} </h1>
-                <p>{post.body} quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architectoquia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architectoquia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architectoquia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto</p>
+                <p class="">{post.description}</p>
                  
              </div>
         </div>)

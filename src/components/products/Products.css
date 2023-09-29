@@ -6,8 +6,31 @@
     display: flex;
     margin-bottom: 5px;
 }
-.prodcuts{
-    text-decoration: none;
-    text-transform: capitalize;
-    padding-bottom: 10px;
+ 
+.pro-img{
+    text-align: center;
+    padding: 10px;
 }
+.card-title{
+    font-size: 15px !important;
+    word-wrap: break-word;
+    text-transform: capitalize;
+}
+.card .pro-img{
+    height: 250px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.card{
+    height: 400px !important;
+    margin-bottom:30px;
+}
+/* .add-to-cart{
+    position: absolute;
+    bottom: 10px;
+} */
+.card-text p{
+    font-size: 18px;
+    font-weight: 800;
+}
+ 

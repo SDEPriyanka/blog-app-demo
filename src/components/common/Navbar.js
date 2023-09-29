@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from 'react-redux';
+
+
 const Navbar = () => {
   const [isAuthonticated, setAuthonticated] = useState(false);
-
+ const cartProdcuts =  useSelector(state => state.cart)
   const handelLogout = () => {
     localStorage.removeItem("myToken");
     setAuthonticated(false)
@@ -50,6 +53,11 @@ const Navbar = () => {
                   </Link>
                 </li>
               )}
+               <li class="nav-item">
+                <Link to="cart" class="nav-link">
+                  My Cart {cartProdcuts.length}
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

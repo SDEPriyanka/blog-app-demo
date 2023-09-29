@@ -2,7 +2,7 @@
 class ProService{
 
     constructor(){       
-        this.baseURL= 'https://jsonplaceholder.typicode.com/posts'
+        this.baseURL= 'https://fakestoreapi.com/products'
     }
 
     async getProducts() {
